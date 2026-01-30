@@ -1,0 +1,12 @@
+import java.util.Arrays;
+
+class Main {
+    public static void main(String[] args) {
+        // Task 2: Access element at index
+        int[] arr2 = {10, 20, 30, 40, 50};
+        int index = 2;
+        if(index >= 0 && index < arr2.length) {
+            System.out.println("Task 2: Element at index " + index + " is " + arr2[index]);
+        } else {
+            System.out.println("Task 2: Invalid index!");
+        }
