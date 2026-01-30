@@ -1,0 +1,8 @@
+int[] arr = {50, 20, 10, 40, 30};
+        int k = 3;
+        Arrays.sort(arr);
+        if(k >= 1 && k <= arr.length) {
+            System.out.println(" The " + k + "th smallest element is " + arr[k - 1]);
+        } else {
+            System.out.println("T Invalid K!");
+        }
